@@ -1,0 +1,58 @@
+ /* Väliaikaiset värit eri alueille */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD700; /* Keltainen - otsikko */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #98FB98; /* Vaaleanvihreä - kuvaus */
+    text-align: center;
+    padding: 10px;
+}
+
+.actions {
+    background-color: #87CEEB; /* Vaaleansininen - toimintopainikkeet */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ingredients {
+    background-color: #FFB6C1; /* Vaaleanpunainen - ainekset */
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+}
+
+.instructions {
+    background-color: #E6E6FA; /* Laventeli - ohjeet */
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.footer {
+    background-color: #D3D3D3; /* Harmaa - arvio ja valmis */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
