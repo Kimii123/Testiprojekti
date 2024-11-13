@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Munakas</title>
+    <title>Munakas Resepti</title>
     <link rel="stylesheet" href="munakasstyle.css">
 </head>
 <body>
-    
     <header>
         <h1>Munakas</h1>
+        <p class="description">Munakas on arkiruokaa parhaimmillaan. Munakas maistuu sellaisenaan, mutta sen voi myös täyttää oman maun mukaan.</p>
     </header>
-    <nav>
-        <h3>Munakas on arkiruokaa parhaimmillaan. Munakas maistuu sellaisenaan, mutta sen voi myös täyttää oman maun mukaan. </h3>
-    </nav>
-    <section>
 
-        <h2>Ainekset</h2>
-        <h4>2-3 annosta</h4>
-        <ul>
-            <li>4 kananmunaa</li>
-            <li>4 rkl vettä tai maitoa</li>
-            <li>1/2 tl suolaa</li>
-        </ul>
-
-        <h2>Paistamiseen</h2>
-        <ul>
-            <li>Rypsiöljä</li>
-            <li>Voita</li>
-        </ul>
-
-
-        <h2>Valmistus</h2>
-        <ol>
-            <li>Riko munien rakenne kulhossa ja lisää vesi tai maito, suola ja pippuri.</li>
-            <li>Kuumenna rasva paistinpannussa ja kaada munakasseos kuumaan pannuun. Laske lämpöä. Vedä munakasmassaa lastalla pohjaa pitkin reunoilta keskelle, kunnes munakas on lähes hyytynyt. Pinta saa jäädä kosteaksi. Tarjoa heti.</li>
-        </ol>
-
-    </section>
-
-
+    <div class="content">
+        <div class="left-column">
+            <h2>Ainekset</h2>
+            <p>2-3 annosta</p>
+            <ul>
+                <li>4 kananmunaa</li>
+                <li>4 rkl vettä tai maitoa</li>
+                <li>1/2 tl suolaa</li>
+            </ul>
+    
+            <h2>Paistamiseen</h2>
+            <ul>
+                <li>Rypsiöljy</li>
+                <li>Voita</li>
+            </ul>
+        </div>
+    
+        <div class="right-column">
+            <h2>Valmistus</h2>
+            <ol>
+                <li><input type="checkbox" class="step-checkbox"> Riko munien rakenne kulhossa ja lisää vesi tai maito, suola ja pippuri.</li>
+                <li><input type="checkbox" class="step-checkbox"> Kuumenna rasva paistinpannussa ja kaada munakasseos kuumaan pannuun. Laske lämpöä. Vedä munakasmassaa lastalla pohjaa pitkin reunoilta keskelle, kunnes munakas on lähes hyytynyt. Pinta saa jäädä kosteaksi. Tarjoa heti.</li>
+            </ol>
+        </div>
+    </div>   
 </body>
 </html>

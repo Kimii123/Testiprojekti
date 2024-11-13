@@ -6,21 +6,16 @@
     font-family: Arial, sans-serif;
 }
 
-/* täysleveys- ja korkeustyyli */
+/* taustaväri ja teksti */
 body {
     background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
     color: #333;
 }
 
 /* pääotsikko ja kuvaus */
 header {
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -41,8 +36,9 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 40px;
-    width: 80vw;
+    width: 90%; /* Levennetty sisältöä hieman */
     max-width: 1000px;
+    margin: 0 auto; /* Keskittää sisällön */
     display: flex;
     gap: 20px;
 }
@@ -50,6 +46,7 @@ header h1 {
 /* vasen ja oikea sarake */
 .left-column, .right-column {
     flex: 1;
+    padding: 0 20px; /* Lisää sisäistä marginaalia */
 }
 
 /* otsikot */
@@ -60,7 +57,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* ainekset- ja ohjeet-alueet */
+/* ainekset ja valmistus */
 ul, ol {
     margin-top: 10px;
     padding-left: 20px;
@@ -70,13 +67,13 @@ ul li, ol li {
     margin-bottom: 8px;
 }
 
-/* annos-teksti */
+/* annosmäärä-teksti */
 .ingredients p {
     font-weight: bold;
     color: #333;
 }
 
-/* painikkeet (tallenna, tulosta jne.) */
+/* painikkeet */
 button {
     background-color: #4CAF50;
     color: white;
@@ -90,4 +87,3 @@ button {
 button:hover {
     background-color: #45a049;
 }
-
